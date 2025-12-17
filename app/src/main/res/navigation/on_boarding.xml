@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/on_boarding"
+    app:startDestination="@id/onBoardingWelcomeFragment">
+
+    <fragment
+        android:id="@+id/onBoardingLastFragment"
+        android:name="kg.saliev.hobbitnotes.ui.fragments.onBoarding.OnBoardingLastFragment"
+        android:label="fragment_on_boarding_last"
+        tools:layout="@layout/fragment_on_boarding_last" />
+    <fragment
+        android:id="@+id/onBoardingWelcomeFragment"
+        android:name="kg.saliev.hobbitnotes.ui.fragments.onBoarding.OnBoardingWelcomeFragment"
+        android:label="fragment_on_boarding_welcome"
+        tools:layout="@layout/fragment_on_boarding_welcome" >
+        <action
+
+            android:id="@+id/action_onBoardingWelcomeFragment_to_onBoardingFeatureFragment"
+            app:destination="@id/onBoardingFeatureFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingFeatureFragment"
+        android:name="kg.saliev.hobbitnotes.ui.fragments.onBoarding.OnBoardingFeatureFragment"
+        android:label="fragment_on_boarding_feature"
+        tools:layout="@layout/fragment_on_boarding_feature" >
+        <action
+            android:id="@+id/action_onBoardingFeatureFragment_to_onBoardingLastFragment"
+            app:destination="@id/onBoardingLastFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HobbitNotes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+<!--         <item name="colorContainer">@color/main_color</item>-->
+    </style>
+
+    <style name="Theme.HobbitNotes" parent="Base.Theme.HobbitNotes" />
+</resources>

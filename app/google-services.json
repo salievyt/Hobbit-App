@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1077222393372",
+    "project_id": "hobbit-notes",
+    "storage_bucket": "hobbit-notes.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077222393372:android:30e6348ca0e608b3ce01d9",
+        "android_client_info": {
+          "package_name": "kg.saliev.hobbitnotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbFbsf3p_Hj_6sIMFYmYGZ2LCe1FqMywc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/home"
+        android:title="@string/Home"
+        android:orderInCategory="20"
+        android:iconTint="@color/main_color">
+    </item>
+    <item
+        android:id="@+id/statisticFragment"
+        android:icon="@drawable/statistic_up"
+        android:title="@string/Statistic"
+        android:orderInCategory="20"
+        android:iconTint="@color/main_color">
+
+    </item>
+    <item
+        android:id="@+id/progressFragment"
+        android:icon="@drawable/flame"
+        android:title="@string/Progress"
+        android:orderInCategory="20"
+        android:iconTint="@color/main_color">
+    </item>
+    <item
+        android:id="@+id/topsFragment"
+        android:icon="@drawable/social_leaderboard"
+        android:title="@string/Tops"
+        android:orderInCategory="20"
+        android:iconTint="@color/main_color">
+    </item>
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/user"
+        android:title="@string/Profile"
+        android:orderInCategory="20"
+        android:iconTint="@color/main_color">
+    </item>
+</menu>

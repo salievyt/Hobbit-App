@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Hobbit Notes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="OnBoardingWelcomeDesc1">Создавай привычки и отслеживай</string>
+    <string name="OnBoardingWelcomeDesc2">прогресс каждый день</string>
+    <string name="OnBoardingWelcomeTitle">Стань лучшей версией себя</string>
+    <string name="Skip">Пропустить</string>
+    <string name="Home">Главная</string>
+    <string name="Statistic">Статистика</string>
+    <string name="Profile">Профиль</string>
+    <string name="Progress">Результаты</string>
+    <string name="Tops">Топы</string>
+    <string name="next">Далее</string>
+    <string name="OnBoardingFeatureTitle">Система Достижений</string>
+    <string name="OnBoardingFeatureDesc1">Каждая выученная привычка даёт вам</string>
+    <string name="OnBoardingFeatureDesc2">достижение и бонусы</string>
+    <string name="use">Начать пользоваться</string>
+    <string name="OnBoardinglastTitle">Спасибо, что выбрали нас</string>
+    <string name="OnBoardinglastDesc1">Приложение готово к работе.</string>
+    <string name="OnBoardinglastDesc2">Мы постарались сделать всё простым и удобным.</string>
+    <string name="enter_email">example@example.com</string>
+    <string name="in_google">Войти через Google</string>
+    <string name="email">Адрес электронной почты</string>
+    <string name="help_pass">Забыли пароль?</string>
+    <string name="in_account">Войти в аккаунт</string>
+    <string name="password">Пароль</string>
+    <string name="and">или</string>
+</resources>
